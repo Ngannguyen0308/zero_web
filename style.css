@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+
+
+/* ========================================= */
+/* home page */
+*{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+#header{
+    display: inline-block;
+    top: 50px;
+}
+.pages{
+    position: absolute;
+    top: 45px;
+    left: 400px;
+}
+.pages a{
+    padding-right: 30px;
+}
+.header_icon{
+    position: absolute;
+    top: 50px;
+    right: 280px;
+}
+.header_icon i{
+    padding-right: 30px;
+}
+
+.search_box {
+    background-color: rgb(253, 255, 255);
+    position: absolute;
+    right: 90px;
+    top: 36px;
+    border: 3px solid black;
+    border-radius: 20px;
+    height: 35px;
+}
+.search_box > input{
+    border-radius: 2px;
+    border: none;
+}
+.search_box i{
+    padding: 10px;
+}
+
+/* products */
+#products .card{
+    border: 2px rgb(209, 202, 202) solid;
+    width: 310px;
+    margin: 15px; 
+    text-align: center;
+    display: inline-block;
+    margin: 25px;
+
+}
+
+#products .card button{
+    border: 2px solid yellow;
+    padding: 10px;
+}
+
+/* footer */
+#icon_footer i {
+    color: blue;
+    padding-right: 10px;
+}
+#footer{
+    display: inline-flex;
+    margin: 20px 20px 20px 20px;
+}
+#footer .text{
+    display: block;
+    padding: 20px 20px 20px 20px;
+}
+#footer .text > input{
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(246, 250, 250);
+}
+
